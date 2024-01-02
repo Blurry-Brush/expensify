@@ -1,12 +1,9 @@
 import {StyleSheet, Text, View} from 'react-native';
 import React from 'react';
+import AppNavigation from './navigation/appNavigation';
 
 export default function App() {
-  return (
-    <View className="bg-red-500">
-      <Text className="text-yellow-900">App</Text>
-    </View>
-  );
+  return <AppNavigation />;
 }
 
 const styles = StyleSheet.create({});
